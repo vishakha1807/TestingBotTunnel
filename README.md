@@ -7,8 +7,11 @@ You will no longer need to open up ports on your firewall or whitelist our IP ra
 
 
 Fast: at our end of the tunnel we keep a cache of static content, to reduce traffic inside the tunnel.
+
 Secure: when you start the Tunnel, a pristine VM server is booted just for you and will last until you end the tunnel.
+
 Robust: full HTTP(s) support, coded in Java
+
 Easy: to set up and use.
 
 Step:-
@@ -36,12 +39,19 @@ Step6:-now you can start your test with selenium and testNG.
 import java.net.URL;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.Platform;
+
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
+
 import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.Test;
 
 public class TestingBotTest {
